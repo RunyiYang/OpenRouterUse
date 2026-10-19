@@ -1,0 +1,15 @@
+# Publish only the recipient client, its documentation and its tests.
+# Local configuration, generated files and any other source stay untracked.
+*
+!/.gitignore
+!/README.md
+!/use_token.py
+!/.env.client.example
+!/.github/
+!/.github/workflows/
+!/.github/workflows/tests.yml
+!/docs/
+!/docs/TOKEN_CLIENT.md
+!/docs/TESTING.md
+!/tests/
+!/tests/test_token_client.py
